@@ -36,32 +36,6 @@ module funnel(h,r1,r2,shape=1, slices=100) {
 
 }
 
-// Example
-//h = 30;
-//r1 = 34.5;
-//r2 = (32-1.9)/2;
-//shape = 0.45;
-//mt = 3;
-//
-//*difference() {
-//    cylinder(h=100, r=75/2);
-//    translate([0,0,-2])cylinder(h=104, r=75/2-2.5);
-//}
-//
-//*translate([0,0,h])difference() {
-//    cylinder(h=200, r=r2+mt);
-//    translate([0,0,-2])cylinder(h=204, r=r2);
-//}
-//
-//difference() {
-//
-//    funnel(h,r1+mt,r2+mt,shape=shape);
-//    funnel(h,r1,r2,shape=shape);
-//    cylinder(h=2*h,r=r2);
-//    translate([0,0,-mt]) cylinder(h=mt, r=r1);   
-//   
-//}
-
 
 
    

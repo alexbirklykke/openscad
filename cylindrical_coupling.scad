@@ -49,13 +49,5 @@ module cylindrical_coupling(h,r1,r2,shape=0.5, kernel="sigmoid", slices=100) {
              
 }
 
-// Example
-//$fn=100;
-//h = 40; 
-//cylindrical_coupling(h=h, r1 =20, r2 = 10, shape=0.4, kernel="tanh");
-//%translate([0,0,h])cylinder(h=100,r=10);
-//%translate([0,0,-100])cylinder(h=100,r=20);
-//
-
 
    
